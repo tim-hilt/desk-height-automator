@@ -1,0 +1,3 @@
+/Users/timhilt/dev/desk-height-automator/build/pioasm/CMakeFiles/pioasm.dir
+/Users/timhilt/dev/desk-height-automator/build/pioasm/CMakeFiles/edit_cache.dir
+/Users/timhilt/dev/desk-height-automator/build/pioasm/CMakeFiles/rebuild_cache.dir
