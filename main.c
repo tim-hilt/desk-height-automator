@@ -63,9 +63,12 @@ void init_periphery(void) {
 
 static uint32_t last_interrupt_time = 0;
 
-enum state_t { S_IDLE = 0, S_PRESET_1 = 1, S_PRESET_2 = 2 };
-static enum state_t current_state = S_IDLE;
-static enum state_t last_state = S_IDLE;
+enum state_t {
+  S_IDLE = 0,
+  S_PRESET_1 = 1,
+  S_PRESET_2 = 2
+} current_state = S_IDLE,
+  last_state = S_IDLE;
 
 void switch_state(uint gpio, uint32_t events) {
   uint32_t current_time = to_ms_since_boot(get_absolute_time());
